@@ -1,0 +1,85 @@
+.labelForm{
+	color:white;
+	font-family: Backpack Personal Use; 
+	letter-spacing: 2px;
+}
+
+.tombolDaftar{
+	height: 35px;
+	width: 108px;
+	background-color: transparent;
+	border: none;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    background: url('../gambar/tombolPilihan/daftar.png');
+}
+
+.tombolMasuk{
+	height: 35px;
+	width: 108px;
+	background-color: transparent;
+	border: none;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    background: url('../gambar/tombolPilihan/masuk.png');
+}
+
+.tombolSimpan{
+	height: 35px;
+	width: 120px;
+	background-color: transparent;
+	border: none;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    background: url('../gambar/tombolPilihan/simpan.png');
+}
+
+.tombol:hover {
+    box-shadow:  0px 5px 10px green;
+    border-radius: 5px;
+    background-color: #008aff;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.tombolBiru:hover {
+    box-shadow:  0px 5px 10px blue;
+    border-radius: 5px;
+    background-color: #008aff;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.infoHeader h2{
+	font-family: Alpha Echo;
+	font-size: 40px; 
+	color:white; 
+	text-shadow:  0px 2px 10px blue;
+}
+
+.infoHeader div{
+	padding-top:45px; padding-left:180px
+}
+
+.bayangHijau text{
+	text-shadow:  0px 5px 10px green;
+}
+
+.tombolLevel:hover {
+    box-shadow:  0px 15px 40px blue;
+    border-radius: 5px;
+    background-color: blue;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.tombolLevel {
+    box-shadow:  0px 5px 10px green;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
